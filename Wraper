@@ -1,7 +1,6 @@
 function [RGB_Testdata] = RGBarray(Testdata)
 [m,n] = size(Testdata);
 RGB_Testdata = zeros(m,3*n);
-
 for i =1:m
   for j=1:n
    for p =1:3
