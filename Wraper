@@ -1,4 +1,4 @@
-unction [RGB_Testdata] = RGBarray(Testdata)
+function [RGB_Testdata] = RGBarray(Testdata)
 [m,n] = size(Testdata);
 RGB_Testdata = zeros(m,3*n);
 
